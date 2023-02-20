@@ -1,5 +1,9 @@
-module github.com/wyy-go/go-cli-template
+module github.com/wyy-go/wsc
 
 go 1.16
 
-require github.com/spf13/cobra v1.6.1
+require (
+	github.com/gorilla/websocket v1.5.0
+	github.com/jpillora/backoff v1.0.0
+	github.com/panjf2000/ants/v2 v2.7.1
+)
